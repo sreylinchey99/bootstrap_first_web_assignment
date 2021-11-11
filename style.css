@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+nav{
+    padding-left: 3VW;
+    background-color: aliceblue;
+    width: 100%;
+    color: rgb(138, 133, 133);
+}
+nav:hover{
+    font-size: 4vw;
+    color: rgb(70, 70, 70);
+    transition: 0.3s;
+    word-spacing: 0.2vw;
+}
+.title h3{
+    margin-top: 0vw;
+    margin-left: 7vw;
+    font-size: 2.5vw;
+    font-family: Impact;
+    color: rgb(78, 133, 134);
+    padding-top: 2vw;
+}
+.title h3:hover{
+    font-size: 3vw;
+    color: rgb(61, 107, 109);
+    transition: 0.4s;
+    word-spacing: 0.5vw;
+}
+.lin-bk .card{
+    margin-left: 6vw;
+    margin-top: 2vw;
+}
+.idol{
+    margin-left: 9vw;
+    margin-top: 5vw;
+}
+.main-session{
+    background-color: aquamarine;
+}
+.main-info h3{
+    margin-left: 10vw;
+    margin-top: 5vw;
+    color: rgb(204, 90, 90);
+    font-size: 3vw;
+    font-weight: bold;
+}
+.main-info h3:hover{
+    color: brown;
+    transition: 0.5s;
+    word-spacing: 0.6vw;
+    font-size: 4vw;
+}
+.more-info{
+    display: flex;
+    flex-direction: row;
+}
+.more-info .card{
+    margin-left: 9vw;
+    margin-top: 3.5vw;
+}
+.card-body h5{
+    font-size: 1.2vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(85, 85, 85);
+}
+.card-body h4{
+    font-size: 1.8vw;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: chocolate;
+}
+.main-info p .card-text{
+    font-size: 1.2vw;
+}
+.card-body p{
+    font-size: 1.7vw;
+    color: rgb(36, 34, 34);
+}
+
+.text h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.8vw;
+    color: rgb(131, 128, 128);
+    margin-top: 4vw;
+    text-align: center;
+}
+.text h2:hover{
+    font-size: 2vw;
+    color: rgb(62, 63, 63);
+    transition: 0.4s;
+    word-spacing: 0.5vw;
+}
+.card-title{
+    font-weight: bold;
+    font-size: 0.5vw;
+    color: indianred;
+    text-align: center;
+}
+.card{
+    margin: 3vw;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    font-size: 3vw;
+    text-align: center;
+    margin-left: 38vw;
+}
+.icon i:hover{
+    color: rgb(214, 8, 8);
+} 
+.footer{
+    background-color: aquamarine;
+}
+.footer p{
+    margin-top: 0vw;
+    padding-top: 2vw;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.9vw;
+    color: rgb(112, 108, 108);
+}
+.footer p:hover{
+    color: rgb(59, 58, 58);
+    font-size: 2vw;
+    font-weight: bold;
+    transition: 0.5s;
+    word-spacing: 0.8vw;
+}
+
